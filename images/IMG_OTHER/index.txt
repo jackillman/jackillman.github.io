@@ -1,0 +1,33 @@
+<html>
+     <head>
+     <title>Ремонт стиральных машин </title>
+     </head>
+<body text="#484800" bgcolor="#ffffff" background="stiralnaya_mashina_samsung_wf8590nmw9.jpg">
+<center>
+<table width="1980" height="800" cellpadding="5" cellspacing="2" border="1">
+<tr>
+<td colspan="3" height="30" bgcolor="#b2ff80">
+<center><img src="graphics/privet.jpg" width="200" height="40" alt="Привет мир!!!"></center>
+</td>
+</tr>
+<tr>
+<td height="30" width="33%" bgcolor="#ffa0cf">
+<center><b><a href=" index.html">Обо мне!!!</a></b></center>
+</td>
+<td width="33%" bgcolor="#c0e4ff">
+<center><b><a href=" myfoto.html">Здесь мои фотки!!</a></b></center>
+</td>
+<td bgcolor="#c0e4ff">
+<center><b><a href="mailto:karlson@kruha.ru">Напишите мне письмо..</a></b></center>
+</td>
+</tr>
+<tr>
+<td colspan="3" valign="top" bgcolor="#b2ff80">
+<img src="graphics/foto.jpg" align="left" hspace="10" width="100" height="90" alt="Это моя фотка!!!">
+<p align="justify">&nbsp;&nbsp;&nbsp;Разрешите представиться Карлсон! … … …</p>
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>

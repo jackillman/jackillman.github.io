@@ -1,0 +1,460 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+                             /* шапка */
+.wrapper{
+	
+	height:200px;
+}
+.left-top-wr{
+	background: url(../images/str.png) no-repeat;
+	height:200px;
+	position:relative;
+}
+
+
+.right-top-wr{
+	
+	width:100%;
+	
+	-webkit-background-size: 100%;
+		background-size: 100%;
+	height:200px;
+	position:relative;
+	
+}
+.stir{
+	
+	background-color: rgba(0, 120, 201, 0.1);
+	
+	
+}
+
+.fixing{
+	position:absolute;
+	text-align:middle;
+	top:16px;
+	left:30px;
+
+	font-size:40px;
+	
+}
+
+.phones{
+	position:absolute;
+	top:70px;
+	left:460px;
+	font-size:26px;
+	
+}
+.mains{
+	padding-left:10px;
+	padding-bottom:15px;
+}
+.icons{
+		position: absolute;
+	left:150px;
+	top:50px;
+	
+}
+.icons_and_Text{
+	position:absolute;
+	
+}
+.iconsplus{
+	position: absolute;
+	top:65px;
+	left:200px;
+	
+}
+.iconsplus li{
+	padding-bottom:15px;
+	
+}
+.iconsText{
+	position: absolute;
+	top:65px;	
+}
+
+#imgtotop{
+	width:150px;
+	height:150px;
+	position:absolute;
+	top:-30px;
+left:20px;	
+}
+#imgtotop:hover{
+	-moz-transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	transform:scale(1.1);
+	
+}
+ h1{
+	color:#333;
+}
+	
+	
+
+
+.mains{
+	font-size:36px;
+	display: inline;
+}
+
+.ico_qual,
+.ico_sale,
+.ico_fast{
+	
+	height:40px;
+	width:40px;
+	margin:0 5px;
+	padding-top:5px;
+	
+}
+
+.call{
+	float: right;
+	padding-right:50px;
+	font-size:20px;
+	
+	
+}
+
+
+	
+                                      /* Меню  */
+nav {
+	width:100%;
+	height:52px;
+	background:#5BA2D6 0 0 no-repeat;
+	overflow:visible;
+	z-index:1;
+	border:transparent;
+	border-radius:5px;
+}
+.menu li {
+	float:left;
+	position:relative;
+	
+}
+
+.menu li a {
+	display:inline-block;
+	font-size:18px;
+	line-height:25px;
+	padding:12px 28px 12px 29px;
+	color:#333;
+	text-transform:none;
+}
+
+.menu li a.active, .menu > li > a:hover {
+	color:#fff;
+}
+
+.menu > li:first-child > a.active, .menu > li:first-child > a:hover {
+	background-position:center 15px;
+}
+.mnu{
+	position: relative;
+	margin:0px;
+	top:-17px;
+	width:100%;
+}
+.mnu ul,
+.indent-bot ul{
+	list-style:none;
+}
+
+                         /* Первый контент (менюшка - главная ) */
+
+						 
+span{
+	color:red;
+	
+}
+.team1 {
+	float: left;
+	width:150px;
+}
+.team2 {
+	float: right;
+	width:150px;
+}
+.team3 {
+	float: left;
+	width:150px;
+}
+.glavnaya p{
+	padding:15px;
+}
+.glavnaya{
+	border:solid 1px #eee;
+	box-shadow:3px 3px 5px #333;
+}
+.img-indent {
+	float:left;
+	margin:0 19px 0px 0;
+}
+                              /* Время работы */
+.wrapper_time{
+	background-color: #B7E4FF;
+	border-radius:5px;
+	padding:5px;
+}
+                        /* Чувачек под временем работі */
+						
+			
+.image-wash {
+	margin-left:35px;
+}			
+.image-wash img{
+	width:100%;
+	transform:scale(1.1, 1.1);
+}
+						
+						
+
+                                /* боковой коллбэк */
+.master_forma {
+    position: fixed;
+    right: 0;
+    top: 30%;
+	}
+	
+	h1{
+		text-align:center;
+	}
+                                 	/* о нас */
+	.extra-wrap {
+		
+		padding-bottom:20px;
+		
+	}
+	
+	.extra-wrap1{
+		
+	}
+	.extra-wrap h2, h3{
+		text-align:center;
+	}
+	.extra-wrap p {
+		color:#333;
+		padding-left:20px;
+	}
+	.callback_img{
+		width:100px;
+	}
+	.modal_form{
+		width:70%;
+		margin:40px auto;
+	}
+	.input{
+		width:100%;
+		margin:10px 0;
+		border:1px solid #ccc;
+		padding:10px;
+		text-indent:20px;
+		color:#555;
+		border-radius:5px;
+	}
+	.input_sub{
+		border:1px solid #770000;
+		background:#abc3f5;
+		color:#fff;
+		text-transform:uppercase;
+	}
+	                                  /* секция 3  */
+	
+	
+	.priceANDcallback{
+		margin:40px auto;
+	}
+	.problems-main{
+		background:url(../images/roomwash.jpg) center no-repeat;
+		-webkit-background-size: 100%;
+		background-size: 100%;
+		
+	}
+	
+	
+	.problems-list{
+		padding-left:50px;
+	}
+	.problems{
+		background: rgba(40, 75, 88, 0.45);
+		padding-left:550px;
+		text-shadow:1px 1px 1px #102357;
+		color:#fff;
+		font-size:18px;
+		padding-top:20px;
+		padding-bottom:20px;
+		
+	}
+	                             /* секция прайса  */
+		.price-list{
+		position:relative;
+		margin:auto;
+		
+	}
+	.price__list{
+		position: relative;
+		margin:auto;
+	}
+	
+	
+	.price-list td {
+	border:3px solid #333;
+	line-height:39px;
+}
+.price-list thead td {
+	width:150px;
+	text-align:center;
+	color:#000;
+	font-weight:bold;
+}
+.price-list td:first-child {
+	width:400px;
+}
+.price-list tbody td:first-child {
+	color:#000;
+	font-weight:bold;
+	text-align:left;
+	text-indent:19px;
+}
+.price-list tbody td {
+	text-align:center;
+}
+.indent-left {
+	
+	padding-left:30px;
+}
+.indent-left p{
+	padding-top:5px;
+}
+
+ul{
+list-style:none;
+}
+/* секция заказа ремонта  */
+#feedback-form {
+  max-width: 400px;
+  padding: 2%;
+  border-radius: 3px;
+  background: #eee;
+}
+#feedback-form [required] {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2px 0 2% 0;
+  padding: 2%;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+  
+}
+#feedback-form [required]:hover {
+  border-color: #7eb4ea;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+}
+#feedback-form [required]:focus {
+  outline: none;
+  border-color: #7eb4ea;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 4px rgba(35,146,243,.5);
+  transition: .2s linear;
+  
+}
+#feedback-form [type="submit"] {
+  padding: 2%;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+  background: #669acc;
+  color: #fff;
+}
+#feedback-form [type="submit"]:hover {
+  background: #5c90c2;
+}
+#feedback-form [type="submit"]:focus {
+  box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+  /* Кнопка вверх  */
+
+  .to-top{
+	   position: fixed;
+    right: 2%;
+    bottom: 5%;
+	   z-index:10;
+	   border:none;
+  }
+  
+  #top{
+	  
+	  background: url(../images/topbutton.png) no-repeat;
+	height:60px;
+	width:60px;
+	   border-radius:50px;
+border:transparent;	   
+  }
+  .to-top{
+	  border:none;
+  }
+  
+  
+
+
+                      /* FOOTER  */
+footer{
+	margin-top:20px;
+	width: 100%;
+	height:100%;
+position: relative;
+	background:#5BA2D6;
+}
+.towns{
+	color:#fff;
+	padding: 5px 15px 40px;
+}
+.our-contacts{
+	text-align:center;
+	font-size:26px;
+	
+	
+	color:#fff;
+}
+.fa{
+	font-size:26px;
+	
+}
+.fa-vk:hover {
+	color:#fff;
+	font-size:32px;
+
+}
