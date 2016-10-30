@@ -25,7 +25,11 @@
 	
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
-	
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/wow.min.js"></script>
+        <script> 
+		new WOW().init();
+       </script>
 </head>
 <body>
 
@@ -238,7 +242,7 @@
 							Как к Вам обращаться:
 								<input type="text" name="nameFF" required placeholder="Ваше имя" x-autocompletetype="name">
 							Контактный телефон:
-								<input type="email" name="contactFF" required placeholder="Номер телефона" x-autocompletetype="email">
+								<input type="number" name="contactFF" required placeholder="Номер телефона" x-autocompletetype="email">
 							Ваше сообщение:
 								<textarea name="messageFF" placeholder="Характер неисправности и модель машинки" required rows="5"></textarea>
 									<input type="submit" value="отправить">
@@ -348,7 +352,7 @@
 	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
-	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
@@ -359,9 +363,10 @@
 	<script src="libs/countdown/jquery.countdown.min.js"></script>
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
-	<script src="js/common.js"></script>
 	<script src="remodal/remodal.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+	
+	
 	
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
