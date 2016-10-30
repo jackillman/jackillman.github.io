@@ -186,6 +186,13 @@ body{
 		overflow-x:hidden;
 		padding-right:15px;
 	}
+	.left-top-wr{
+		width:100%;
+	}
+	.right-top-wr{
+	position: relative;
+	width:100%;
+	
 }
 
 /* Medium Devices, Desktops */
