@@ -15,7 +15,7 @@ $(document).ready(function() {
 	
 	
 	$(window).scroll(function(){
-      alert("Вы прокрутили содержимое данного окна.");
+      $("to-top").hide();
    });
 	
 	
