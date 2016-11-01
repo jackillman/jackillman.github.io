@@ -43,7 +43,7 @@
 	}
 .left-top-wr{
 width:100%;
-
+display:none;
 margin:auto;
 }	
 	
@@ -135,6 +135,9 @@ margin:auto;
 	body{
 		padding-right:10px;
 		overflow-x:hidden;
+	}
+	.left-top-wr{
+	display:none;
 	}
 	.right-top-wr{
 	position: relative;
