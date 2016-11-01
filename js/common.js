@@ -13,7 +13,7 @@ $(document).ready(function() {
 //});
 
 	$(window).scroll(function(){
-      $(".to-top").css("visibility","visible");});
+      $(".to-top").css("display","block");});
 	
 	
 	
