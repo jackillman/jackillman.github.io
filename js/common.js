@@ -12,7 +12,7 @@ $(document).ready(function() {
 //  $(".owl-carousel").owlCarousel();
 //});
 
-	$("html").scroll(function(){
+	$(window).scroll(function(){
 	$(".to-top").fadeOut(3000)});
 	
 	
