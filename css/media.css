@@ -51,10 +51,7 @@ margin:auto;
 	
 .right-top-wr{
 	position: relative;
-	width:100%;
-	background: url(../images/str1.png) no-repeat;
-	-webkit-background-size: 100%;
-		background-size: 100%;
+	
 }	
 .mym{
 	position: absolute;
