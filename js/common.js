@@ -12,7 +12,8 @@ $(document).ready(function() {
 //  $(".owl-carousel").owlCarousel();
 //});
 
-	
+	$(window).scroll(function(){
+      $("to-top").show();
 	
 	
 	
