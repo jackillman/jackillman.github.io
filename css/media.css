@@ -41,7 +41,7 @@
 }
 	.to-top1{
 	opacity:0.5;
-
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -86,7 +86,7 @@ margin:auto;
 	width:100%;
 	
 }
-
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	body{
