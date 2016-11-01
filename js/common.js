@@ -14,9 +14,7 @@ $(document).ready(function() {
 
 	
 	
-	$(window).scroll(function(){
-      $("to-top").hide();
-   });
+	
 	
 	
 	
