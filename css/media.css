@@ -87,48 +87,41 @@ margin:auto;
 @media only screen and (max-width : 768px) {
 	body{
 		padding-right:15px;
-		overflow-x:hidden;
 	}
-	.right-top-wr{
+.left-top-wr{
+width:100%;
+display: none;
+margin:auto;
+}	
+	
+.right-top-wr{
 	position: relative;
 	width:100%;
+	background: url(../images/str1.png) no-repeat;
+	-webkit-background-size: 100%;
+		background-size: 100%;
 }	
-.fixing{
-	
-	position:absolute;
-	left:50px;
-	font-size:26px;
-}
-	.mym{
+.mym{
 	position: absolute;
 	top:27px;
-	left:320px;
-	font-size:22px;
+	left:480px;
+	font-size:26px;
 }
-.iconsText{
-	
-}
+
 .phones{
-	font-size:24px;
-	width:100%;
-	display: inline;
+	font-size:22px;
+	
 	position: absolute;
-	left:420px;
-	top:80px;
-}
+	left:480px;
+}	
 	
-	
-.wrapper_time{
-	
-	width:100%;
-	text-align:middle;
-}
 .image-wash{
 	visibility:hidden;
 	position:absolute;
-	width:100%;
 }
-
+.problems{
+	padding-left:0px;
+}
 #feedback-form{
 	margin: auto;
 	width:100%;
