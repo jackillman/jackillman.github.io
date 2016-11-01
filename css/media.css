@@ -8,9 +8,9 @@
 .problems{
 	padding-left:450px;
 }
-.left-top-wr img{
+.left-top-wr{
+	display:none;
 	
-	width:30%;
 }
 .right-top-wr{
 	position: relative;
