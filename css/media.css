@@ -14,6 +14,8 @@
 }
 .right-top-wr{
 	position: relative;
+	
+	background: url(../images/str1.png) no-repeat;
 }
 
 .iconText{
