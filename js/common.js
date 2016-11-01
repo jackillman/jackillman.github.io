@@ -13,7 +13,11 @@ $(document).ready(function() {
 //});
 
 	$(window).scroll(function(){
-	$(".to-top").hide();});
+	$("#top").hide();});
+	
+	$(window).scroll(function(){
+      alert("Вы прокрутили содержимое данного окна.");
+   });
 	
 	
 	
