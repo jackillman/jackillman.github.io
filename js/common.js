@@ -15,7 +15,7 @@ $(document).ready(function() {
 	$(window).scroll(function(){
       $(".to-top").css("display","block");});
 	
-	 $(window).on("swipe",function(){
+	 $(window).on("touch",function(){
 	$(".to-top").css("display","block");});
 	
 	
