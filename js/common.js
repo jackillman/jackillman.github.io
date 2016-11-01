@@ -12,8 +12,7 @@ $(document).ready(function() {
 //  $(".owl-carousel").owlCarousel();
 //});
 
-	$(window).scroll(function(){
-	$("#top").hide();});
+	
 	
 	$(window).scroll(function(){
       alert("Вы прокрутили содержимое данного окна.");
