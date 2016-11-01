@@ -12,6 +12,11 @@ $(document).ready(function() {
 //  $(".owl-carousel").owlCarousel();
 //});
 
+	$("body").scroll(function(){
+	$(".to-top").fadeOut(3000)});
+	
+	
+	
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
