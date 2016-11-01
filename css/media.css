@@ -9,13 +9,13 @@
 	padding-left:450px;
 }
 .left-top-wr{
-	display:none;
+	
 	
 }
 .right-top-wr{
 	position: relative;
 	
-	background: url(../images/str1.png) no-repeat;
+	
 }
 
 .iconText{
@@ -46,13 +46,14 @@
 		padding-right:15px;
 	}
 .left-top-wr{
-width:100%;
+display:none;
 
 margin:auto;
 }	
 	
 .right-top-wr{
 	position: relative;
+	background: url(../images/str1.png) no-repeat;
 	
 }	
 .mym{
