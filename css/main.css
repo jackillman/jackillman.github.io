@@ -413,7 +413,7 @@ list-style:none;
     bottom: 5%;
 	   z-index:10;
 	   border:none;
-	  display:none;
+	  visibility:hidden;
   }
   
   #top{
@@ -424,9 +424,7 @@ list-style:none;
 	   border-radius:50px;
 border:transparent;	   
   }
-  .to-top{
-	  border:none;
-  }
+ 
   
   
 
