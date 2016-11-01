@@ -13,7 +13,7 @@ $(document).ready(function() {
 //});
 
 	$(window).scroll(function(){
-	$(".to-top").fadeOut(3000)});
+	$(".to-top").hide();});
 	
 	
 	
