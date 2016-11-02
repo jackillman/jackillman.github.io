@@ -1,0 +1,242 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	body{
+		padding-right:15px;
+	}
+.problems{
+	padding-left:450px;
+}
+.left-top-wr{
+	
+	
+}
+.right-top-wr{
+	position: relative;
+	
+	
+}
+
+.iconText{
+	width:70%;
+	
+}
+.mym{
+	position: absolute;
+	top:27px;
+	right:5px;
+}
+.mym, .fixing{
+	font-size:32px;
+}
+.phones{
+	font-size:22px;
+	margin-top:5px;
+	position: absolute;
+	left:360px;
+	}
+.num1{
+	padding-bottom:8px;
+}
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	body{
+		
+	}
+.left-top-wr{
+
+
+margin:auto;
+}	
+	
+.right-top-wr{
+	position: relative;
+	
+	
+}
+.fixing{
+	position:absolute;
+	left:20px;
+	font-size:26px;
+	
+}	
+.iconsText{
+	position:absolute;
+	
+	
+}
+
+    #imgtotop{
+		top:-20px;
+		left:-30px;
+	width: 140px;
+    height: 140px;
+    position: absolute;	
+	
+	}
+	
+.mym{
+	position: absolute;
+	top:27px;
+	left:480px;
+	font-size:20px;
+}
+.iconsplus{
+	position: absolute;
+	left:125px;
+}
+.phones{
+	top:75px;
+	font-size:16px;
+	left:280px;
+	position: absolute;
+	
+}	
+.iconsText{
+	font-size:16px;	
+}
+.icons{
+	position: absolute;
+	left:70px;
+}
+	
+.image-wash{
+	width:100px;
+	position:absolute;
+	top:0px;
+	right:40px;
+}
+.problems{
+	padding-left:0px;
+}
+#feedback-form{
+	margin: auto;
+	width:100%;
+	
+}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	body{
+		
+	}
+.left-top-wr{
+
+
+
+
+}	
+.fixing{
+	position:absolute;
+	left:10px;
+	font-size:24px;
+	
+}	
+.right-top-wr{
+	position: relative;
+	
+	
+	
+}
+
+#imgtotop{
+		top:5px;
+		left:-30px;
+	width: 120px;
+    height: 120px;
+    position: absolute;	
+	
+	}	
+.mym{
+	position: absolute;
+	top:27px;
+	left:460px;
+	font-size:24px;
+}
+
+.phones{
+	font-size:15px;
+	
+	left:240px;
+	position: absolute;
+	
+}
+.icons{
+	position: absolute;
+	left:40px;
+}	
+.iconsplus{
+	position: absolute;
+	left:90px;
+}
+.iconsText{
+	font-size:15px;	
+}	
+.image-wash{
+	
+	position:absolute;
+}
+.problems{
+	padding-left:0px;
+}
+#feedback-form{
+	margin: auto;
+	width:100%;
+	
+}
+}			
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+	
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+body{
+		overflow-x:hidden;
+		padding-right:15px;
+	}
+	.left-top-wr{
+		width:100%;
+	}
+	.right-top-wr{
+	position: relative;
+	width:100%;
+	
+}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
